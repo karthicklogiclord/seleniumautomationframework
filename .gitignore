@@ -8,6 +8,7 @@
 
 # Logs
 *.log
+logs/
 # Temporary files
 *.tmp
 *~
@@ -136,7 +137,7 @@ maven-metadata-local.xml
 .maven-classpath
 
 *.versionsBackup
-maven-eclipse.xml
+maven-se.xml
 
 ### Maven ###
 # Maven package manager repository files
@@ -152,3 +153,11 @@ maven-repository/
 .maven-cache/
 maven-metadata-local.xml
 .maven_repos/
+
+
+# TestNG Reports
+test-output/
+
+# OS files
+.DS_Store
+
